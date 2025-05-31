@@ -18,6 +18,14 @@
 
 📄 Generación de informes automáticos con payload incluido
 
+## 🚀 Instalación
+
+```bash
+git clone https://github.com/Zuk4r1/CSRFreakX.git
+cd CSRFreakX
+pip install -r requirements.txt
+```
+
 ## 🧪 Uso
 
 ```bash
