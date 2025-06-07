@@ -71,13 +71,24 @@ if __name__ == '__main__':
             print(f"[DEBUG] target={args.target}, params={params}, method={method}, bypass={bypass}, aggressive={aggressive}")
             import inspect
             print(f"[DEBUG] generate_exploit signature: {inspect.signature(generate_exploit)}")
-            exploit_path = generate_exploit(
+            exploit_result = generate_exploit(
                 target=args.target,
                 params=params,
                 method=method,
                 bypass=bypass,
                 aggressive=aggressive
             )
+            # Si el resultado parece ser código y no una ruta, lo guardamos en un archivo
+            if isinstance(exploit_result, str) and ("const fs" in exploit_result or exploit_result.strip().startswith("<")):
+                # Guardar el exploit en un archivo temporal
+                timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+                exploit_path = os.path.join("exploits", f"exploit_{timestamp}.js")
+                os.makedirs("exploits", exist_ok=True)
+                with open(exploit_path, "w", encoding="utf-8") as f:
+                    f.write(exploit_result)
+            else:
+                exploit_path = exploit_result
+
             print(f"[+] Exploit generado: {exploit_path}")
 
             if args.launch:
