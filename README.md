@@ -116,15 +116,11 @@ Al finalizar un escaneo o ataque exitoso, CSRFreakX genera un informe en la carp
 > El uso no ético o sin permiso en sistemas de terceros constituye un delito informático.
 > El autor no se responsabiliza por daños derivados del mal uso de esta herramienta.
 
-# 🤝 Contribuciones
+## ☕ Apoya mis proyectos
+Si te resultan útiles mis herramientas, considera dar una ⭐ en GitHub o invitarme un café. ¡Gracias!
 
-Se aceptan pull requests, mejoras de código, integración con más fuentes OSINT y módulos de detección avanzados.
-  <br />
-	<br/>
-      	<p width="20px"><b>Se aceptan donaciones para mantener este proyecto</p></b>
-	      <a href="https://buymeacoffee.com/investigacq"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=investigacqc&button_colour=FF5F5F&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a><br />
-      	<a href="https://www.paypal.com/paypalme/babiloniaetica"><img title="Donations For Projects" height="25" src="https://ionicabizau.github.io/badges/paypal.svg" /></a>
-</div>
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/investigacq)  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/paypalme/babiloniaetica)
+
 
 ## ❤️ Créditos
 
